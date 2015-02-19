@@ -1,0 +1,17 @@
+{
+  "name": "ies",
+  "description": "Identify IE major version",
+  "version": "0.1.0",
+  "keywords": [
+    "ie",
+    "internet",
+    "explorer",
+    "version"
+  ],
+  "repository": "andrepolischuk/ies",
+  "main" : "index.js",
+  "scripts" : [
+    "index.js"
+  ],
+  "license": "MIT"
+}
