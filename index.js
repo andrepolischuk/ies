@@ -21,7 +21,7 @@ module.exports = parse();
 
 function parse() {
   var msie = /MSIE.(\d+)/i.exec(ua);
-  var rv = /rv:(\d+)/i.exec(ua);
+  var rv = /Trident.+rv:(\d+)/i.exec(ua);
   var version = msie || rv || undefined;
   return version ? +version[1] : version;
 }
