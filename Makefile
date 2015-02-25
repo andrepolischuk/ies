@@ -5,7 +5,7 @@ test: build
 	@open test/index.html
 
 clean:
-	@rm -fr build.js ies.js ies.min.js components node_modules
+	@rm -rf build.js ies.js ies.min.js components node_modules
 
 build: $(wildcard test/*.js)
 	@duo --development --stdout test/test.js > build.js

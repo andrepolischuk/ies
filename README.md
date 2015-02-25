@@ -7,7 +7,7 @@
   Browser:
 
 ```html
-<script src="https://cdn.rawgit.com/andrepolischuk/ies/0.1.0/dist/ies.min.js"></script>
+<script src="https://cdn.rawgit.com/andrepolischuk/ies/0.2.0/ies.min.js"></script>
 ```
 
   Component(1):
