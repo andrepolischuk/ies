@@ -4,30 +4,19 @@
 
 ## Instalation
 
-  Browser:
-
-```html
-<script src="https://cdn.rawgit.com/andrepolischuk/ies/0.2.0/ies.min.js"></script>
-```
-
-  Component(1):
-
 ```sh
 $ component install andrepolischuk/ies
-```
-
-  Npm:
-
-```sh
 $ npm install ies
 ```
 
-## Use
+## Usage
 
-  Return major version number for IE and `undefined` for other
+  Return Internet Explorer major version number
 
 ```js
-if (ies < 9) {
+var ie = require('ies');
+
+if (ie < 9) {
   // ...
 }
 ```
