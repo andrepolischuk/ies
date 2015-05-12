@@ -15,6 +15,7 @@ module.exports = parse();
 
 /**
  * Get IE major version number
+ *
  * @return {Number}
  * @api private
  */

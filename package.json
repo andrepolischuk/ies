@@ -8,10 +8,7 @@
     "explorer",
     "version"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/andrepolischuk/ies.git"
-  },
+  "repository": "andrepolischuk/ies",
   "main": "index.js",
   "author": "Andrey Polischuk <andre.polischuk@gmail.com>",
   "license": "MIT"
