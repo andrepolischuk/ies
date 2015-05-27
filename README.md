@@ -6,6 +6,9 @@
 
 ```sh
 $ npm install --save ies
+```
+
+```sh
 $ component install andrepolischuk/ies
 ```
 
