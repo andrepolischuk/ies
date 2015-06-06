@@ -2,14 +2,14 @@
 
   > Identify IE major version
 
-## Instalation
+## Install
 
 ```sh
-$ npm install --save ies
+npm install --save ies
 ```
 
 ```sh
-$ component install andrepolischuk/ies
+component install andrepolischuk/ies
 ```
 
 ## Usage
